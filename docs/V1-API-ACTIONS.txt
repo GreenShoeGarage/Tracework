@@ -1,0 +1,10 @@
+test_v6_01_ownership_validation_arming_and_single_dispatch (__main__.Actions.test_v6_01_ownership_validation_arming_and_single_dispatch) ... ok
+test_v6_02_cancel_and_ownership_change (__main__.Actions.test_v6_02_cancel_and_ownership_change) ... ok
+test_v6_03_unknown_blocks_retry_and_late_result (__main__.Actions.test_v6_03_unknown_blocks_retry_and_late_result) ... ok
+test_v6_04_restart_and_dedicated_credentials (__main__.Actions.test_v6_04_restart_and_dedicated_credentials) ... ok
+test_v6_05_independent_provider_and_local_validation (__main__.Actions.test_v6_05_independent_provider_and_local_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 3.317s
+
+OK

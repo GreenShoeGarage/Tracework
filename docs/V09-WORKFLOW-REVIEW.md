@@ -1,0 +1,7 @@
+# v0.9 workflow review
+
+Reviewed the v0.7–v0.9 additions before release qualification. Observe, Investigate, Actions, Checks, Access and Local extensions remain separate explicit tasks. The primary investigation action is now its report; recovery/import/export controls are grouped in a disclosure that opens automatically when a save needs attention. Comparison colors follow the light/dark/high-contrast theme, with labels and line dashes retaining non-color identity. The connection guide links native adapters/SDKs and displays decoder identity.
+
+The critical path remains create blank project → define source → start capture → inspect exact evidence → retain/report. Extensions require explicit installation and explicit bounded selection transfer. Their UI shows scope; implementation details stay in the integration guide. No physical target capability is implied by protocol fixtures. Agent process isolation is described accurately as resource/failure isolation; browser renderers use an opaque sandbox and networking-denying CSP.
+
+Qualification gates: existing investigation browser workflow, new adversarial extension workflow, exact native SDK round trips, parser bounds, strict TypeScript, native tests and four-platform compilation. v1.0 will rerun the complete suite, exercise historical migrations and publish the measured performance envelope. Deferred features remain visible in the capability matrix.

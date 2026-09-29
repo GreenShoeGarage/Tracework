@@ -1,0 +1,9 @@
+test_v9_01_can_jsonl_to_exact_recording_and_decoder_guard (__main__.Integrations.test_v9_01_can_jsonl_to_exact_recording_and_decoder_guard) ... ok
+test_v9_02_modbus_independent_tcp_peer_rejects_bad_transaction (__main__.Integrations.test_v9_02_modbus_independent_tcp_peer_rejects_bad_transaction) ... ok
+test_v9_03_process_extension_validation_limits_and_no_credentials (__main__.Integrations.test_v9_03_process_extension_validation_limits_and_no_credentials) ... ok
+test_v9_04_go_rust_native_sdk_conformance (__main__.Integrations.test_v9_04_go_rust_native_sdk_conformance) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.794s
+
+OK

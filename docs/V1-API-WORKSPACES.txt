@@ -1,0 +1,11 @@
+test_v4_01_persistence_conflict_and_evidence_isolation (__main__.Workspaces.test_v4_01_persistence_conflict_and_evidence_isolation) ... ok
+test_v4_02_invalid_layouts_are_atomic (__main__.Workspaces.test_v4_02_invalid_layouts_are_atomic) ... ok
+test_v4_03_readonly_import_allows_views_not_data_mutation (__main__.Workspaces.test_v4_03_readonly_import_allows_views_not_data_mutation) ... ok
+test_v4_04_pinned_and_portable_metadata_roundtrip (__main__.Workspaces.test_v4_04_pinned_and_portable_metadata_roundtrip) ... ok
+test_v4_05_sample_cleanup_and_foreign_project_isolation (__main__.Workspaces.test_v4_05_sample_cleanup_and_foreign_project_isolation) ... ok
+test_v4_06_actual_v03_migration (__main__.Workspaces.test_v4_06_actual_v03_migration) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.552s
+
+OK

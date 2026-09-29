@@ -1,0 +1,10 @@
+[package]
+name = "tracework-client"
+version = "1.0.0"
+edition = "2021"
+license = "GPL-3.0-only"
+description = "Native TRACEWORK HTTP client with exact evidence envelopes"
+[dependencies]
+serde_json = "=1.0.145"
+ureq = { version = "=2.12.1", features = ["json"] }
+url = "=2.5.7"

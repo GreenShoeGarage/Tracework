@@ -1,0 +1,25 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "processor": "AMD EPYC 9V74 80-Core Processor",
+  "logical_cpus": 9,
+  "memory_reported_by_proc": "MemTotal:       10206540 kB",
+  "storage": "ephemeral container filesystem; durability tests use OS fsync, physical power-loss not tested",
+  "workload": {
+    "events": 10000,
+    "batch_size": 500,
+    "sources": 1,
+    "fields": 4,
+    "clients": 1,
+    "concurrent_browser": false
+  },
+  "ingest_seconds": 1.0312632619970827,
+  "events_per_second": 9696.844994395125,
+  "batch_ack_median_ms": 47.840097000516835,
+  "batch_ack_p95_ms": 64.62219699824345,
+  "compare_two_10000_point_traces_seconds": 0.28884517199912807,
+  "check_10000_observations_seconds": 0.14266502900136402,
+  "full_read_seconds": 0.16502638699967065,
+  "trace_bytes": 5847784,
+  "server_rss": "Unavailable: process PID is outside exposed /proc namespace",
+  "interpretation": "Measured single local fixture only. Not guaranteed throughput, latency, or hardware acquisition capacity."
+}

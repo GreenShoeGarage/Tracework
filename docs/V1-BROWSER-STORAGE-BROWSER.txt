@@ -1,0 +1,14 @@
+{
+  "browser": "138.0.7204.0",
+  "checks": [
+    "Native ZIP imports through UI into isolated read-only evidence, exact integer remains visible",
+    "Inclusive range drives replay; original 400 ms receive intervals and pause are honored",
+    "Selected-range browser export contains exactly four verified original events",
+    "Protect blocks trash; explicit trash and restore preserve imported recording",
+    "Replay controls and range dialog fit desktop/light/contrast and 390 px mobile layouts",
+    "Retention preview names exact candidates; reviewed trash and explicit permanent deletion work",
+    "Timed replay crosses the 2,000-event page boundary without stopping or repeating an event"
+  ],
+  "errors": [],
+  "external_requests": []
+}

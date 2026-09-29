@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: GPL-3.0-only
+syntax = "proto3";
+package tracework.v1;
+option go_package = "tracework/protocol/gen;traceworkv1";
+// JSON bytes use the same strict, exact-integer native envelope as HTTP.
+// Acknowledgment is sent only after the shared ingest transaction completes.
+service Acquisition {
+ rpc Publish(stream PublishRequest) returns (stream PublishReply);
+ rpc Subscribe(SubscribeRequest) returns (stream LiveReply);
+}
+message PublishRequest { string project_id=1; bytes batch_json=2; }
+message PublishReply { bytes acknowledgment_json=1; }
+message SubscribeRequest { string project_id=1; }
+message LiveReply { bytes frame_json=1; }

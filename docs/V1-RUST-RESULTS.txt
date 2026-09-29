@@ -1,0 +1,17 @@
+   Compiling tracework-client v1.0.0 (/workspace/scratch/d24a117e4635/tracework/sdk/rust)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.66s
+   Compiling tracework-client v1.0.0 (/workspace/scratch/d24a117e4635/tracework/sdk/rust)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.33s
+     Running unittests src/lib.rs (target/debug/deps/tracework_client-abb827d0d6687b59)
+
+running 1 test
+test tests::exact_and_remote_constraints ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests tracework_client
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

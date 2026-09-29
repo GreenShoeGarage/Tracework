@@ -1,0 +1,14 @@
+{
+  "browser": "138.0.7204.0",
+  "checks": [
+    "Explicit recordings align and plot together; exact two-observation measurement retains both endpoint citations",
+    "Finding severity/confidence, register filtering and HTML escaping work with cited evidence kept distinct",
+    "Frozen baselines persist and compare later changes without mutating the earlier snapshot",
+    "Server persistence and investigation JSON import/export round-trip exact evidence snapshots",
+    "Standalone printable report includes provenance, exact evidence, authored findings and escaped content",
+    "Investigation workspace, comparisons and report controls fit desktop themes and 390 px mobile",
+    "Investigation operations leave all recorded envelopes unchanged, with zero browser errors/external requests"
+  ],
+  "errors": [],
+  "external_requests": []
+}

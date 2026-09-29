@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "every_archived_file_hash_verified": true,
+  "extracted_start_script": true,
+  "capture_export_verify_restart": true,
+  "embedded_documents_match_packaged_source": true,
+  "adversarial_browser_against_extracted_binary": true,
+  "qualification_archive_sha256": "23d7f42177f961cbb6fd081d8743558a570c0bd3ac2e3555682888ed0a44e441",
+  "executables_sha256": {
+    "tracework-linux-arm64": "1aac57fabdd1961846ae598e8b6f6478c3bee963485a266a533d61dc89edcb0e",
+    "tracework-darwin-arm64": "cc305fa4c048bbe9a04600be12a9bae07f5eb9648b845d8a5696691585295d9b",
+    "tracework-linux-amd64": "0c372de29b9d592d7b229a4e898323717b5c408ff3d50eef018ad2ca10955534",
+    "tracework-darwin-amd64": "a9d4dfb8dbd78a7a48c979680f5780bc7ce830d96a36687755802d7a7b58ab6d"
+  }
+}

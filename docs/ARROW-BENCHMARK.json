@@ -1,0 +1,59 @@
+{
+  "pyarrow": "25.0.0",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "repetitions": 3,
+  "fixture": "one schema, one source, five value fields, complete envelope, nulls/gaps, uint64 max and int64 min, nanosecond timestamps",
+  "timing_scope": "Python object conversion and encoding/decoding; in-memory buffers, no fsync, SQLite, server, or network",
+  "results": [
+    {
+      "events": 10000,
+      "codec": "jsonl",
+      "bytes": 5283122,
+      "encode_median_s": 0.04936133099909057,
+      "decode_median_s": 0.06616285900054208,
+      "semantic_exact_roundtrip": true
+    },
+    {
+      "events": 10000,
+      "codec": "jsonl_gzip_6",
+      "bytes": 241507,
+      "encode_median_s": 0.07706783100002212,
+      "decode_median_s": 0.07320445100049255,
+      "semantic_exact_roundtrip": true
+    },
+    {
+      "events": 10000,
+      "codec": "arrow_ipc_uncompressed",
+      "bytes": 2107474,
+      "encode_median_s": 0.036822497999310144,
+      "decode_median_s": 0.1324851450008282,
+      "semantic_exact_roundtrip": true
+    },
+    {
+      "events": 100000,
+      "codec": "jsonl",
+      "bytes": 53133797,
+      "encode_median_s": 0.5350449050001771,
+      "decode_median_s": 1.1305518549997942,
+      "semantic_exact_roundtrip": true
+    },
+    {
+      "events": 100000,
+      "codec": "jsonl_gzip_6",
+      "bytes": 2411851,
+      "encode_median_s": 0.8214396069997747,
+      "decode_median_s": 1.1275585229996068,
+      "semantic_exact_roundtrip": true
+    },
+    {
+      "events": 100000,
+      "codec": "arrow_ipc_uncompressed",
+      "bytes": 21131210,
+      "encode_median_s": 0.6542687029996159,
+      "decode_median_s": 1.4158111119995738,
+      "semantic_exact_roundtrip": true
+    }
+  ],
+  "decision": "Keep immutable JSONL as production codec. Arrow prototype is optional analysis, not a runtime format or acquisition performance claim."
+}

@@ -1,0 +1,1 @@
+{"checks":["Guided rule editor saves exact numeric strings, explicit source time/window/coverage; native run passes","Rule changes create distinct retained runs and exact witness inspection","HTML and JUnit exports contain the native result and exact evidence","Reload persistence, Observe navigation and 390 px layout without browser errors"],"errors":[]}

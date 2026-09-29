@@ -1,0 +1,27 @@
+[
+  {
+    "command": [
+      "go",
+      "test",
+      "-race",
+      "-mod=vendor",
+      "-buildvcs=false",
+      "-v",
+      "./..."
+    ],
+    "exit_code": 0,
+    "seconds": 17.956,
+    "log": "V1-NATIVE-TEST.txt"
+  },
+  {
+    "command": [
+      "go",
+      "vet",
+      "-mod=vendor",
+      "./..."
+    ],
+    "exit_code": 0,
+    "seconds": 0.309,
+    "log": "V1-NATIVE-VET.txt"
+  }
+]

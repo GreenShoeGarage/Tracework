@@ -1,0 +1,25 @@
+=== RUN   TestOptimizeAtomicFailureAndOriginalLines
+--- PASS: TestOptimizeAtomicFailureAndOriginalLines (0.25s)
+=== RUN   TestENOSPCRejectsWithoutAcknowledgment
+--- PASS: TestENOSPCRejectsWithoutAcknowledgment (0.14s)
+=== RUN   TestSQLiteFullRollsBackBatch
+--- PASS: TestSQLiteFullRollsBackBatch (0.80s)
+=== RUN   TestAfterChunkBeforeCommitRecovery
+--- PASS: TestAfterChunkBeforeCommitRecovery (0.13s)
+=== RUN   TestImportBeforeCommitRollback
+--- PASS: TestImportBeforeCommitRollback (0.15s)
+=== RUN   TestWebSocketAuthAndDelivery
+--- PASS: TestWebSocketAuthAndDelivery (0.18s)
+=== RUN   TestStreamEvictionIsExplicit
+--- PASS: TestStreamEvictionIsExplicit (8.40s)
+=== RUN   TestGRPCBidirectionalPublishSubscribeAndAuth
+--- PASS: TestGRPCBidirectionalPublishSubscribeAndAuth (0.18s)
+=== RUN   TestSchemaMetadataCannotBeReinterpreted
+--- PASS: TestSchemaMetadataCannotBeReinterpreted (0.14s)
+=== RUN   TestGRPCTLSAndRemoteBindGuard
+--- PASS: TestGRPCTLSAndRemoteBindGuard (0.13s)
+=== RUN   TestMQTTPacketLimitBeforePayloadAllocation
+--- PASS: TestMQTTPacketLimitBeforePayloadAllocation (0.00s)
+PASS
+ok  	tracework	11.509s
+?   	tracework/protocol/gen	[no test files]

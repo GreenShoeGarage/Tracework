@@ -1,0 +1,1 @@
+{"checks":["Explicit selected evidence reaches an opaque sandboxed renderer with exact integer/timestamp strings","Adversarial fixture cannot access parent DOM/storage, send network requests or turn messages into action calls","Installed-code hash change fails closed"],"errors":[],"external_requests":[]}

@@ -1,0 +1,14 @@
+VERSION "TRACEWORK synthetic fixture"
+NS_ :
+BS_:
+BU_: Bench
+BO_ 291 BenchReading: 8 Bench
+ SG_ temperature : 0|16@1- (0.1,-40) [-3276.8|3276.7] "degC" Bench
+ SG_ count : 16|32@1+ (1,0) [0|4294967295] "cycles" Bench
+ SG_ state : 48|8@1+ (1,0) [0|255] "state" Bench
+BO_ 292 Exact64: 8 Bench
+ SG_ count : 0|64@1+ (1,0) [0|18446744073709551615] "cycles" Bench
+BO_ 293 Multiplexed: 3 Bench
+ SG_ mode M : 0|8@1+ (1,0) [0|255] "mode" Bench
+ SG_ little m1 : 8|16@1+ (1,0) [0|65535] "raw" Bench
+ SG_ big m2 : 15|16@0- (1,0) [-32768|32767] "raw" Bench

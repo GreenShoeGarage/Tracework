@@ -1,0 +1,20 @@
+test_01_exact_restart_and_independent_producer (__main__.Workflows.test_01_exact_restart_and_independent_producer) ... ok
+test_02_atomic_validation_duplicates_conflicts (__main__.Workflows.test_02_atomic_validation_duplicates_conflicts) ... ok
+test_03_gaps_clock_reset_reboots_null (__main__.Workflows.test_03_gaps_clock_reset_reboots_null) ... ok
+test_04_project_roundtrip_and_recording_export (__main__.Workflows.test_04_project_roundtrip_and_recording_export) ... ok
+test_05_live_not_durable_and_stale (__main__.Workflows.test_05_live_not_durable_and_stale) ... ok
+test_06_quota_rejection_does_not_ack_or_commit (__main__.Workflows.test_06_quota_rejection_does_not_ack_or_commit) ... ok
+test_07_write_failure_is_not_success (__main__.Workflows.test_07_write_failure_is_not_success) ... ok
+test_08_uncommitted_file_quarantine (__main__.Workflows.test_08_uncommitted_file_quarantine) ... ok
+test_09_corruption_fails_closed (__main__.Workflows.test_09_corruption_fails_closed) ... ok
+test_10_backup_restore (__main__.Workflows.test_10_backup_restore) ... ok
+test_11_origin_host_auth_and_directory_lock (__main__.Workflows.test_11_origin_host_auth_and_directory_lock) ... ok
+test_12_pagination_and_live_limit (__main__.Workflows.test_12_pagination_and_live_limit) ... ok
+test_13_clear_samples_preserves_user_projects (__main__.Workflows.test_13_clear_samples_preserves_user_projects) ... ok
+test_14_agent_buffer_retry_and_restart (__main__.Workflows.test_14_agent_buffer_retry_and_restart) ... ok
+test_15_python_sdk_and_cli (__main__.Workflows.test_15_python_sdk_and_cli) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.419s
+
+OK

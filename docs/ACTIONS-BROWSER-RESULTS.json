@@ -1,0 +1,9 @@
+{
+  "browser": "138.0.7204.0",
+  "checks": [
+    "Discover, own, typed parameters, separate arming and actual independent provider success",
+    "Target confirms cancellation, preserved prior counter and separate outcome history",
+    "Outcome inspection, Observe navigation and 390 px layout"
+  ],
+  "errors": []
+}

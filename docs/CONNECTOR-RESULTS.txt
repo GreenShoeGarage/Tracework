@@ -1,0 +1,12 @@
+test_v2_01_recording_intent_and_pinning (__main__.Connectors.test_v2_01_recording_intent_and_pinning) ... ok
+test_v2_02_immutable_revisions_and_multiple_sources (__main__.Connectors.test_v2_02_immutable_revisions_and_multiple_sources) ... ok
+test_v2_03_serial_disconnect_reopen_and_partial_line (__main__.Connectors.test_v2_03_serial_disconnect_reopen_and_partial_line) ... ok
+test_v2_04_mqtt_durable_ack_redelivery_reconnect_retained (__main__.Connectors.test_v2_04_mqtt_durable_ack_redelivery_reconnect_retained) ... ok
+test_v2_05_agent_grpc_transport (__main__.Connectors.test_v2_05_agent_grpc_transport) ... ok
+test_v2_06_actual_v01_migration (__main__.Connectors.test_v2_06_actual_v01_migration) ... ok
+test_v2_07_spool_quota_blocks_and_drains_without_loss (__main__.Connectors.test_v2_07_spool_quota_blocks_and_drains_without_loss) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 5.901s
+
+OK

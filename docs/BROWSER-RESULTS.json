@@ -1,0 +1,28 @@
+{
+  "browser": "138.0.7204.0",
+  "checks": [
+    "UI creates genuinely blank project before source definition",
+    "UI-defined schema and generated Python example compile correctly",
+    "Real Python producer continues server recording after browser closure",
+    "Abrupt server restart and UI reopen preserve identical event, values and nanosecond timestamps",
+    "Browser full trace ZIP export passes independent checksum/count verifier",
+    "Printable evidence summary includes exact selected event and produces PDF",
+    "Keyboard command palette and offline local help work",
+    "Serial and MQTT configuration downloads, immutable schema revision UI, old recording units, agent health, and WebSocket restart reconnection pass",
+    "Desktop, light, high-contrast, and 390 px mobile views render without horizontal overflow",
+    "Clear Sample Data removes synthetic recordings and preserves user project",
+    "No page errors and no external network requests; all non-local traffic blocked"
+  ],
+  "errors": [],
+  "external_requests": [],
+  "acceptance": {
+    "project_id": "48df536ddcfb7c8290b3227f9859d50b",
+    "session_id": "6def45b647d198ba95d8ffe318d28d36",
+    "event_id": "aabc53c24a314140c31c1f06eacaf8c8",
+    "source_timestamp_ns": "1790612345678901234",
+    "uint64_value": "9007199254740993",
+    "events_before_browser_close": 4,
+    "events_after_browser_close": 24,
+    "identical_after_restart": true
+  }
+}

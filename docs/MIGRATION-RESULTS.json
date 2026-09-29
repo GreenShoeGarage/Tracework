@@ -1,0 +1,102 @@
+[
+  {
+    "from": "0.1.0",
+    "to": "1.0.0",
+    "preserved": [
+      "exact evidence"
+    ],
+    "event_and_chunk_identity": true
+  },
+  {
+    "from": "0.2.0",
+    "to": "1.0.0",
+    "preserved": [
+      "exact evidence"
+    ],
+    "event_and_chunk_identity": true
+  },
+  {
+    "from": "0.3.0",
+    "to": "1.0.0",
+    "preserved": [
+      "exact evidence",
+      "protection"
+    ],
+    "event_and_chunk_identity": true
+  },
+  {
+    "from": "0.4.0",
+    "to": "1.0.0",
+    "preserved": [
+      "exact evidence",
+      "protection",
+      "workspace"
+    ],
+    "event_and_chunk_identity": true
+  },
+  {
+    "from": "0.5.0",
+    "to": "1.0.0",
+    "preserved": [
+      "exact evidence",
+      "protection",
+      "workspace",
+      "investigation and frozen baseline"
+    ],
+    "event_and_chunk_identity": true
+  },
+  {
+    "from": "0.6.0",
+    "to": "1.0.0",
+    "preserved": [
+      "exact evidence",
+      "protection",
+      "workspace",
+      "investigation and frozen baseline",
+      "provider catalog"
+    ],
+    "event_and_chunk_identity": true
+  },
+  {
+    "from": "0.7.0",
+    "to": "1.0.0",
+    "preserved": [
+      "exact evidence",
+      "protection",
+      "workspace",
+      "investigation and frozen baseline",
+      "provider catalog",
+      "check rules and cited result"
+    ],
+    "event_and_chunk_identity": true
+  },
+  {
+    "from": "0.8.0",
+    "to": "1.0.0",
+    "preserved": [
+      "exact evidence",
+      "protection",
+      "workspace",
+      "investigation and frozen baseline",
+      "provider catalog",
+      "check rules and cited result",
+      "account password hash and role"
+    ],
+    "event_and_chunk_identity": true
+  },
+  {
+    "from": "0.9.0",
+    "to": "1.0.0",
+    "preserved": [
+      "exact evidence",
+      "protection",
+      "workspace",
+      "investigation and frozen baseline",
+      "provider catalog",
+      "check rules and cited result",
+      "account password hash and role",
+      "pinned decoder definition"
+    ],
+    "event_and_chunk_identity": true
+  }
+]

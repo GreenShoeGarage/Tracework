@@ -1,0 +1,41 @@
+{
+  "events": 1000,
+  "events_per_request": 1,
+  "repetitions": 5,
+  "initial_ingest_seconds": 1.4642909729991516,
+  "before": {
+    "full_read_median_s": 0.03508467199935694,
+    "range_100_read_median_s": 0.0054835040027683135,
+    "stats": {
+      "count": 1000,
+      "first_ordinal": 1,
+      "last_ordinal": 1000,
+      "first_received_ns": "1790630156660605675",
+      "last_received_ns": "1790630158123282635",
+      "recording_bytes": 582783,
+      "chunks": 1000
+    }
+  },
+  "after": {
+    "full_read_median_s": 0.015690020001784433,
+    "range_100_read_median_s": 0.00492918699819711,
+    "stats": {
+      "count": 1000,
+      "first_ordinal": 1,
+      "last_ordinal": 1000,
+      "first_received_ns": "1790630156660605675",
+      "last_received_ns": "1790630158123282635",
+      "recording_bytes": 582783,
+      "chunks": 1
+    }
+  },
+  "optimize_seconds": 0.2461001980009314,
+  "optimize_result": {
+    "changed": true,
+    "chunks_after": 1,
+    "chunks_before": 1000,
+    "events": 1000,
+    "warning": ""
+  },
+  "interpretation": "Sealed-recording read/file-count fixture. Optimization does not reduce capture acknowledgment fsyncs or establish ingestion throughput improvement."
+}

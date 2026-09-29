@@ -1,0 +1,26 @@
+services:
+  tracework:
+    build:
+      context: .
+      args:
+        TARGETARCH: ${TRACEWORK_ARCH:-amd64}
+    image: tracework:1.0.0
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      TRACEWORK_TOKEN: ${TRACEWORK_TOKEN:?Set TRACEWORK_TOKEN to at least 24 random characters}
+    volumes:
+      - tracework-data:/data
+    restart: unless-stopped
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    healthcheck:
+      test: ["CMD", "/tracework", "api", "GET", "/api/v1/status"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+volumes:
+  tracework-data:

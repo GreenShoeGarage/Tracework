@@ -1,0 +1,21 @@
+{
+  "browser": "138.0.7204.0",
+  "checks": [
+    "Six configurable panel kinds render custom sources with exact values and a shared cursor",
+    "Table exact-integer sorting and source filtering, plus independent log filters, work",
+    "State intervals expose gaps and raw panel scope respects pinned source/schema bindings",
+    "Button zoom/pan and explicit drag zoom/inspect operate without changing export range or source evidence",
+    "Plot style, explicit axis bounds, keyboard reordering and resizing persist on server",
+    "Panel removal is reversible with Undo layout",
+    "Tab selection, panel layout, filters and dimensions survive reload",
+    "Pointer resize and native drag reorder work, with Undo restoring the original arrangement",
+    "Portable workspace JSON resolves new source IDs; exact-ID JSON visibly reports unresolved bindings",
+    "Duplicate portable names produce visible ambiguity rather than silently switching sources",
+    "Custom multi-panel layout and configuration dialog fit dark/light/contrast desktop and 390 px mobile",
+    "Concurrent edit conflict preserves a tab-specific draft across reload and supports explicit recovery",
+    "Failed network saves retain an exportable recovery copy and loading saved state prevents discarded-draft resurrection",
+    "All original event envelopes are unchanged; zero browser errors or external requests"
+  ],
+  "errors": [],
+  "external_requests": []
+}

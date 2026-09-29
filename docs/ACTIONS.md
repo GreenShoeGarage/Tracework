@@ -1,0 +1,17 @@
+# Actions and provider ownership
+
+Actions are optional named capabilities advertised by an independently installed provider. A recording or imported project never supplies executable code. Observation and acquisition continue independently of action control.
+
+Run the harmless example from the repository root with `PYTHONPATH=sdk/python python3 examples/action_provider.py --project PROJECT_ID --source SOURCE_ID`. Set `TRACEWORK_URL` and, when configured, `TRACEWORK_TOKEN` for initial registration. The example writes only its own local software counter file. It retains its provider credential in a private state directory. Python providers require a Unix host (file locking and fsync).
+
+In the workbench select **Actions**, take control, choose a discovered action, fill its typed parameters, review, and arm. Exclusive control lasts 90 seconds and renews while this view remains open. A prepared review expires after 30 seconds. Both the server and locally installed provider validate types, exact integers, limits and the action definition. The provider token only accesses its own heartbeat, command and outcome endpoints.
+
+Queued commands are dispatched at most once. A lost dispatch response is not retried. The provider writes a durable journal before executing a handler and retries only result acknowledgments. A second provider process cannot open the same journal. Keep acknowledged journal entries; after 10,000 entries, stop and deliberately archive the provider state before registering a replacement. Do not delete a journal to bypass an unresolved outcome.
+
+Outcomes distinguish `queued`, `running`, `cancel_requested`, `succeeded`, `failed`, `canceled`, `expired`, `unknown` and `unknown_resolved`. Cancellation before dispatch prevents execution. After dispatch it requests cooperative cancellation; only the target can confirm it stopped. A timeout after dispatch becomes unknown and blocks further actions. A late target result can resolve an unknown run. Otherwise an operator must independently inspect the actual target and record a reconciliation; this does not claim success. On server restart, queued commands are canceled, dispatched commands become unknown, and all control leases and prepared reviews are invalidated.
+
+The SDK does not provide a physical emergency stop, electrical interlocks, hard real-time deadlines or machinery certification. Each locally installed handler must implement target-specific limits and emergency behavior. The supplied example and automated tests control software only. A timeout on the server does not terminate a target operation.
+
+API: register at `POST /api/v1/projects/{project}/providers`; list catalog/history at `GET .../actions`; acquire/renew/release at `POST .../providers/{provider}/lease`; prepare then execute at `POST .../actions/prepare` and `.../execute`. Runs expose `.../actions/{run}/cancel` and `.../reconcile`. Provider transport is `POST /api/v1/providers/{provider}/{heartbeat|next|result}` with its dedicated bearer credential. Examples and `tests/actions.py` contain executable request contracts.
+
+History lists return up to 500 recent runs within a 16 MiB aggregate body budget. Complete runs remain retained; retrieve by ID. Provider catalog registration is capped at 64 per project. v1.0 has no provider credential rotation/revocation endpoint. Disable the provider process and isolate its credential when retiring a target.

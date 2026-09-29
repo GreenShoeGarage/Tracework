@@ -1,0 +1,10 @@
+test_v8_01_role_matrix_and_credential_hashing (__main__.Access.test_v8_01_role_matrix_and_credential_hashing) ... ok
+test_v8_02_revocation_logout_reset_and_audit (__main__.Access.test_v8_02_revocation_logout_reset_and_audit) ... ok
+test_v8_03_scoped_shares_expiry_revocation_and_readonly (__main__.Access.test_v8_03_scoped_shares_expiry_revocation_and_readonly) ... ok
+test_v8_04_live_backup_restore_and_tamper_refusal (__main__.Access.test_v8_04_live_backup_restore_and_tamper_refusal) ... ok
+test_v8_05_action_lease_bound_to_account (__main__.Access.test_v8_05_action_lease_bound_to_account) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.964s
+
+OK

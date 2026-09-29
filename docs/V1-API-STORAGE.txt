@@ -1,0 +1,14 @@
+test_v3_01_compact_range_exact_restart (__main__.Storage.test_v3_01_compact_range_exact_restart) ... ok
+test_v3_02_import_range_provenance_readonly_idempotency (__main__.Storage.test_v3_02_import_range_provenance_readonly_idempotency) ... ok
+test_v3_03_import_validation_atomic (__main__.Storage.test_v3_03_import_validation_atomic) ... ok
+test_v3_04_retention_protect_trash_restore_purge (__main__.Storage.test_v3_04_retention_protect_trash_restore_purge) ... ok
+test_v3_05_pagination_empty_range_and_active_guards (__main__.Storage.test_v3_05_pagination_empty_range_and_active_guards) ... ok
+test_v3_06_legacy_bundles_and_backup (__main__.Storage.test_v3_06_legacy_bundles_and_backup) ... ok
+test_v3_07_actual_v02_migration (__main__.Storage.test_v3_07_actual_v02_migration) ... ok
+test_v3_08_import_quota_atomic (__main__.Storage.test_v3_08_import_quota_atomic) ... ok
+test_v3_09_sample_protection_and_auxiliary_cleanup (__main__.Storage.test_v3_09_sample_protection_and_auxiliary_cleanup) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.452s
+
+OK

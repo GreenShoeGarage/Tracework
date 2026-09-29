@@ -1,0 +1,83 @@
+[
+  {
+    "command": [
+      "node",
+      "tests/workspace-model.cjs"
+    ],
+    "exit_code": 0,
+    "seconds": 0.063,
+    "log": "V1-BROWSER-WORKSPACE-MODEL.txt"
+  },
+  {
+    "command": [
+      "node",
+      "tests/browser.cjs"
+    ],
+    "exit_code": 0,
+    "seconds": 8.613,
+    "log": "V1-BROWSER-BROWSER.txt"
+  },
+  {
+    "command": [
+      "node",
+      "tests/storage-browser.cjs"
+    ],
+    "exit_code": 0,
+    "seconds": 6.583,
+    "log": "V1-BROWSER-STORAGE-BROWSER.txt"
+  },
+  {
+    "command": [
+      "node",
+      "tests/workspace-browser.cjs"
+    ],
+    "exit_code": 0,
+    "seconds": 19.405,
+    "log": "V1-BROWSER-WORKSPACE-BROWSER.txt"
+  },
+  {
+    "command": [
+      "node",
+      "tests/investigation-browser.cjs"
+    ],
+    "exit_code": 0,
+    "seconds": 5.492,
+    "log": "V1-BROWSER-INVESTIGATION-BROWSER.txt"
+  },
+  {
+    "command": [
+      "node",
+      "tests/actions-browser.cjs"
+    ],
+    "exit_code": 0,
+    "seconds": 5.44,
+    "log": "V1-BROWSER-ACTIONS-BROWSER.txt"
+  },
+  {
+    "command": [
+      "node",
+      "tests/checks-browser.cjs"
+    ],
+    "exit_code": 0,
+    "seconds": 1.683,
+    "log": "V1-BROWSER-CHECKS-BROWSER.txt"
+  },
+  {
+    "command": [
+      "node",
+      "tests/access-browser.cjs"
+    ],
+    "exit_code": 0,
+    "seconds": 3.806,
+    "log": "V1-BROWSER-ACCESS-BROWSER.txt"
+  },
+  {
+    "command": [
+      "node",
+      "tests/extensions-browser.cjs"
+    ],
+    "exit_code": 0,
+    "seconds": 1.142,
+    "log": "V1-BROWSER-EXTENSIONS-BROWSER.txt"
+  }
+]

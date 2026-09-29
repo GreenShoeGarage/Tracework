@@ -1,0 +1,9 @@
+test_v7_01_exact_predicates_citations_reports (__main__.EvidenceChecks.test_v7_01_exact_predicates_citations_reports) ... ok
+test_v7_02_coverage_is_not_a_pass (__main__.EvidenceChecks.test_v7_02_coverage_is_not_a_pass) ... ok
+test_v7_03_revisions_validation_and_retained_history (__main__.EvidenceChecks.test_v7_03_revisions_validation_and_retained_history) ... ok
+test_v7_04_python_go_cli_and_pytest (__main__.EvidenceChecks.test_v7_04_python_go_cli_and_pytest) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.655s
+
+OK

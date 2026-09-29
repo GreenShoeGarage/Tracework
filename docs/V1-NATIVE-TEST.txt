@@ -1,0 +1,36 @@
+=== RUN   TestAccountRolesAndRevocationAcrossLiveTransports
+--- PASS: TestAccountRolesAndRevocationAcrossLiveTransports (0.46s)
+=== RUN   TestDBCExactSignedMotorolaMultiplexAndUnsupported
+--- PASS: TestDBCExactSignedMotorolaMultiplexAndUnsupported (0.00s)
+=== RUN   TestModbusExactOrderingScalingAndNonfinite
+--- PASS: TestModbusExactOrderingScalingAndNonfinite (0.00s)
+=== RUN   TestOptimizeAtomicFailureAndOriginalLines
+--- PASS: TestOptimizeAtomicFailureAndOriginalLines (0.50s)
+=== RUN   TestENOSPCRejectsWithoutAcknowledgment
+--- PASS: TestENOSPCRejectsWithoutAcknowledgment (0.41s)
+=== RUN   TestSQLiteFullRollsBackBatch
+--- PASS: TestSQLiteFullRollsBackBatch (1.05s)
+=== RUN   TestAfterChunkBeforeCommitRecovery
+--- PASS: TestAfterChunkBeforeCommitRecovery (0.39s)
+=== RUN   TestImportBeforeCommitRollback
+--- PASS: TestImportBeforeCommitRollback (0.44s)
+=== RUN   TestWebSocketAuthAndDelivery
+--- PASS: TestWebSocketAuthAndDelivery (0.51s)
+=== RUN   TestStreamEvictionIsExplicit
+--- PASS: TestStreamEvictionIsExplicit (9.13s)
+=== RUN   TestGRPCBidirectionalPublishSubscribeAndAuth
+--- PASS: TestGRPCBidirectionalPublishSubscribeAndAuth (0.51s)
+=== RUN   TestSchemaMetadataCannotBeReinterpreted
+--- PASS: TestSchemaMetadataCannotBeReinterpreted (0.43s)
+=== RUN   TestGRPCTLSAndRemoteBindGuard
+--- PASS: TestGRPCTLSAndRemoteBindGuard (0.49s)
+=== RUN   TestMQTTPacketLimitBeforePayloadAllocation
+--- PASS: TestMQTTPacketLimitBeforePayloadAllocation (0.00s)
+PASS
+ok  	tracework	15.367s
+?   	tracework/protocol/gen	[no test files]
+?   	tracework/sdk/go/example	[no test files]
+=== RUN   TestUnresolvedSendRetainsExactEnvelope
+--- PASS: TestUnresolvedSendRetainsExactEnvelope (0.00s)
+PASS
+ok  	tracework/sdk/go/tracework	1.019s

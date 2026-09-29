@@ -1,0 +1,10 @@
+test_v5_01_alignment_precision_and_gaps (__main__.Investigations.test_v5_01_alignment_precision_and_gaps) ... ok
+test_v5_02_exact_measurements_and_unit_refusal (__main__.Investigations.test_v5_02_exact_measurements_and_unit_refusal) ... ok
+test_v5_03_saved_evidence_baseline_report_and_conflict (__main__.Investigations.test_v5_03_saved_evidence_baseline_report_and_conflict) ... ok
+test_v5_04_forged_evidence_invalid_aliases_and_samples (__main__.Investigations.test_v5_04_forged_evidence_invalid_aliases_and_samples) ... ok
+test_v5_05_v04_migration (__main__.Investigations.test_v5_05_v04_migration) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.372s
+
+OK

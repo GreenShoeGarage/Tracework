@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Pinned references match exact source/schema/version/field and metadata",
+    "Portable names resolve new IDs while pinned references stay unresolved",
+    "Ambiguous names never select an arbitrary source",
+    "Version, type and unit changes cannot silently rebind",
+    "Integer sorting and display preserve full precision and nulls",
+    "Gap flags, restarts, receive-clock regression and stale intervals break plotted coverage",
+    "Time extent, zoom bounds and shared cursor remain exact beyond JavaScript safe integer range",
+    "Default views preserve plot/value/raw/log workflow and clone without aliasing"
+  ],
+  "passed": 8
+}

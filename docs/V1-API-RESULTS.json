@@ -1,0 +1,92 @@
+[
+  {
+    "command": [
+      "python3",
+      "tests/integration.py"
+    ],
+    "exit_code": 0,
+    "seconds": 1.643,
+    "log": "V1-API-INTEGRATION.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tests/connectors.py"
+    ],
+    "exit_code": 0,
+    "seconds": 6.017,
+    "log": "V1-API-CONNECTORS.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tests/storage.py"
+    ],
+    "exit_code": 0,
+    "seconds": 1.536,
+    "log": "V1-API-STORAGE.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tests/workspaces.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.628,
+    "log": "V1-API-WORKSPACES.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tests/investigations.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.579,
+    "log": "V1-API-INVESTIGATIONS.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tests/checks.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.745,
+    "log": "V1-API-CHECKS.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tests/access.py"
+    ],
+    "exit_code": 0,
+    "seconds": 3.243,
+    "log": "V1-API-ACCESS.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tests/integrations.py"
+    ],
+    "exit_code": 0,
+    "seconds": 2.874,
+    "log": "V1-API-INTEGRATIONS.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tests/actions.py"
+    ],
+    "exit_code": 0,
+    "seconds": 3.39,
+    "log": "V1-API-ACTIONS.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tests/migrations.py"
+    ],
+    "exit_code": 0,
+    "seconds": 1.781,
+    "log": "V1-API-MIGRATIONS.txt"
+  }
+]
